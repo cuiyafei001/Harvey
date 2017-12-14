@@ -35,6 +35,8 @@ driver.find_element_by_id("tinymce").send_keys(Keys.TAB)
 driver.find_element_by_id("tinymce").send_keys(eaitbody)
 time.sleep(3)
 # 释放iframe，重新回到主界面上
-driver.switch_to_default_content()
+driver.switch_to.default_content()
 time.sleep(2)
 driver.find_element_by_id("Editor_Edit_lkbPost").click()
+
+driver.close()
