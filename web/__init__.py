@@ -1,3 +1,5 @@
 # _*_ coding: UTF-8 _*_
 a = 20
-print a+123
+s = 30
+
+print a + s
