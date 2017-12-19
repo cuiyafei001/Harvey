@@ -9,8 +9,7 @@ time.sleep(2)
 # iframe = driver.find_element_by_tag_name("iframe")
 # driver.switch_to_frame(iframe)
 
-# 切换iframe
-# 代码划横线的原因水语法过时了，不过还可以用新的应该这么写
+# 切换iframe 代码划横线的原因水语法过时了，不过还可以用新的应该这么写
 # driver.switch_to.frame("x-URS-iframe")
 driver.switch_to_frame("x-URS-iframe")
 # time.sleep(2)
