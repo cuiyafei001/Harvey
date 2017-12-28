@@ -15,7 +15,7 @@ for url in url_list:
     if 'http' in url:
         print url
         url_all.append(url)
-# 最终URL集合
+# 最终的URL集合
 print url_all
 
 driver.quit()
