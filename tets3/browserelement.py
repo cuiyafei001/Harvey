@@ -16,7 +16,7 @@ print tag
 # 获取元素的其他属性
 name = driver.find_element_by_id("kw").get_attribute("class")
 print name
-# 回去输入矿的内容
+# 回去输入框的内容
 driver.find_element_by_id("kw").send_keys("python+selenium  good good good a very good")
 value = driver.find_element_by_id("kw").get_attribute("value")
 print value
