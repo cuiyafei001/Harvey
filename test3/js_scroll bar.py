@@ -1,4 +1,6 @@
-# _*_ coding: UTF-8 _*_
+#!/usr/bin/env python
+#  -*- coding: UTF-8 -*-
+
 from selenium import webdriver
 import time
 
