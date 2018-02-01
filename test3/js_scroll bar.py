@@ -21,3 +21,4 @@ dr.execute_script(js)
 # 聚焦元素
 target = dr.find_element_by_id("blog_nav_newpost")
 dr.execute_script("arguments[0].scrollIntoView();",target)
+

@@ -20,3 +20,4 @@ js_value = 'document.getElementById("train_date").value="2018-02-01"'
 driver.execute_script(js_value)
 # 关闭浏览器
 # driver.quit()
+
